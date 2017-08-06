@@ -3,7 +3,7 @@ body {
        font-size:        small;
        font-family:      Georgia, "Times New Roman", Times, serif;
        margin:           0px;
-       background-image: url(../images/headerLogo.jpg);
+       background-image: url(headerLogo.jpg);
        background-repeat: no-repeat;
        background-position: 50% 0%;
        }
