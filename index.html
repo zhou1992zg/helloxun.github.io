@@ -5,26 +5,11 @@
       <title>zhouxun's blog</title>
       <link tyde="text/css" rel="stylesheet" href="index.css">
       <script language="javascript">
-      function showtime()
-      {
-      	var now_time = new Date();
-      	var hours = now_time.getHours();
-      	var minutes = now_time.getMinutes();
-      	var seconds = now_time.getSeconds();
-      	var timer = "" + ((hours > 12) ? hours - 12 : hours);
-      	timer += ((minutes < 10) ? ":0" : ":") + minutes;
-      	timer += ((seconds < 10) ? ":0" : ":") + seconds;
-      	timer +=" " + ((hours > 12) ? "pm" : "am");
-      	document.clock.show.value = timer;
-      	setTimeout("showtime()",1000);
-      }
+      
       </script>
       </head>
       <body onLoad="showtime()">
-      <from name="clock" onSubmit="0">
-      <input type="text" name="show" size="10" style="background-color: lightyellow;
-      border-width: 3;">
-      </from>
+
       <div id="top">
           <p id="header">周迅's 博客<br>
           Github.helloxun.cn</p>     
