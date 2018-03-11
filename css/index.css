@@ -1,9 +1,175 @@
 body {
-       width: 1440px;
+       width: 1400px;s
        padding: 0;
        margin: 0;
-       background: url();
-       }
+       background-color: #ccc;
+}
 .heard {
-       background: url(image/headerLogo.jpg) no-repeat;
-}      
+	width: 1400px;
+	height: 280px;
+	background: url(../image/headerLogo.jpg) no-repeat;
+	border: 4px solid black;
+	margin-left: 15px;
+	position: relative;
+}
+.heard p {
+	width: 145px;
+	height: 42px;
+	position: absolute;
+	left: 625px;
+	top: 60px;
+	font-family: sans-serif;
+	font-size: 18px;
+}
+/*用户栏*/
+.user {
+	position: relative;
+	margin-left: 15px;
+	width: 1400px;
+	top: -120px;
+	left: 0;
+}
+.my {
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	border: 5px solid black;
+}
+.zcd {
+	position: absolute;
+	height: 40px;
+	width: 1249px;
+	background-color: #CCFFFF;
+	top: 120px;
+	left: 160px;
+}
+.zcd ul {
+	margin: 0;
+	list-style: none;
+	padding-left: 0;
+}
+.zcd li{
+	float: left;
+	margin: 10px 50px;
+	font-family: sans-serif;
+	font-size: 16px;
+}
+.weixin {
+	position: absolute;
+	top: 3px;
+	left: 1125px;
+}
+.weixin_my {
+	position: absolute;
+	top: 40px;
+	left: 1104px;
+	border: 5px solid #ccc;
+}
+.zcd p {
+	position: absolute;
+	top: -6px;
+	left: 1161px;
+}
+.zcd p:hover {
+	color: #990033;
+}
+.zcd a {
+	text-decoration: none;
+}
+/*内容部分*/
+.grid {
+	position: relative;
+	width: 1400px;
+	height: 1000px;
+	top: 40px;
+	left: 0;
+	margin-left: 15px;
+}
+.grid-cd1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #999;
+	width: 250px;
+	height: 800px;
+}
+.grid-cd1 a {
+	text-decoration: none;
+}
+.grid-cd1 ul {
+	list-style: none;
+	margin-top: 30px;
+	margin-left:30px;
+}
+.grid-cd1 li {
+	margin-top: 15px;
+}
+.grid-cd1-img img {
+	margin-right: 15px;
+	top: 5px;
+}
+.people {
+	position: absolute;
+	top: 540px;
+	left: 0;
+	width: 260px;
+	height: 260px;
+}
+.grid-cd2 {
+	overflow: hidden;
+	margin-left: 260px;
+	width: 1000px;
+	height: 800px;
+	position: relative;
+}
+.new {
+	position: absolute;
+	width: 1000px;
+	height: 250px;
+	background-color: #669999;
+	margin-bottom: 10px;
+}
+.new img {
+	position: absolute;
+	width: 380px;
+	height: 50px;
+	top: 4px;
+	left: -54px;
+}
+.new h2 {
+	position: absolute;
+	margin: 0;
+	z-index: 999;
+	top: 12px;
+	left: 71px;
+}
+.new ul {
+	padding-top: 30px;
+	margin-left: 12px;
+}
+.new li {
+	margin: 20px;
+}
+.new a {
+	text-decoration: none;
+}
+.study {
+	position: absolute;
+	width: 1000px;
+	height: 540px;
+	background-color: #669999;
+	top: 260px;
+	overflow: scroll;
+}
+.world {
+	margin: 12px;
+}
+.grid-cd3 {
+	overflow: hidden;
+	position: absolute;
+	width: 140px;
+	height: 650px;
+	background-color: #99CCCC;
+	top: 150px;
+	left: 1269px;
+}

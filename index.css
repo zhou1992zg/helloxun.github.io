@@ -1,9 +1,9 @@
 body {
-       width: 1440px;
+       width: 1400px;
        padding: 0;
        margin: 0;
-       background: url();
-       }
+       background: url(../image/background.png) no-repeat;
+}
 .heard {
-       background: url(image/headerLogo.jpg) no-repeat;
-}      
+       background: url(../image/headerLogo.jpg) no-repeat;
+}
