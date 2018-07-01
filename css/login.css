@@ -1,0 +1,251 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+ul, ol {
+  list-style: none; }
+
+a {
+  color: #000;
+  text-decoration: none; }
+
+body {
+  background: #f4f5f7;
+  font-weight: 200; }
+
+.login_logo {
+  width: 10rem;
+  height: 4.5333333333rem;
+  margin: 0 auto;
+  background: pink;
+  background: url(../images/news-1591766_960_720.jpg) no-repeat 100% 50%; }
+  .login_logo .login_img {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); }
+    .login_logo .login_img .phone {
+      width: 1.8rem;
+      height: 1.8rem;
+      border-radius: 50%;
+      background: #fff;
+      overflow: hidden;
+      float: left;
+      margin-left: 1.4rem;
+      margin-top: 0.9333333333rem;
+      line-height: 1.8rem;
+      text-align: center; }
+      .login_logo .login_img .phone span {
+        font-size: 1rem;
+        color: #F25E54; }
+    .login_logo .login_img .weixin {
+      width: 1.8rem;
+      height: 1.8rem;
+      border-radius: 50%;
+      background: #fff;
+      overflow: hidden;
+      float: left;
+      margin-left: 0.96rem;
+      margin-top: 0.9333333333rem;
+      line-height: 1.8rem;
+      text-align: center; }
+      .login_logo .login_img .weixin span {
+        font-size: 0.8rem;
+        color: #36C022; }
+    .login_logo .login_img .qq {
+      width: 1.8rem;
+      height: 1.8rem;
+      border-radius: 50%;
+      background: #fff;
+      overflow: hidden;
+      float: right;
+      margin-right: 1.4rem;
+      margin-top: 0.9333333333rem;
+      line-height: 1.8rem;
+      text-align: center; }
+      .login_logo .login_img .qq span {
+        font-size: 1rem;
+        color: #EFAD00; }
+  .login_logo .login_more {
+    width: 3.7333333333rem;
+    height: 0.7333333333rem;
+    background: #2e2e2e;
+    line-height: 0.7333333333rem;
+    text-align: center;
+    float: left;
+    border-radius: 20px;
+    margin-left: 3.1333333333rem;
+    margin-top: 0.6666666667rem; }
+    .login_logo .login_more p {
+      width: 100%;
+      height: 100%;
+      color: #bbb;
+      font-size: 0.32rem; }
+      .login_logo .login_more p span {
+        font-size: 0.32rem; }
+
+.function_box {
+  width: 10rem;
+  margin: 0 auto;
+  overflow: hidden;
+  border-bottom: 0.2666666667rem solid #f4f5f7;
+  background: #fff; }
+  .function_box .function {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10rem;
+    height: 1.8666666667rem;
+    margin: 0 auto; }
+    .function_box .function .shoucang {
+      width: 3.3333333333rem;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      .function_box .function .shoucang div {
+        text-align: center; }
+        .function_box .function .shoucang div span {
+          font-size: 0.6rem;
+          color: #ffb26a; }
+        .function_box .function .shoucang div p {
+          font-size: 0.3466666667rem;
+          color: #222; }
+    .function_box .function .history {
+      width: 3.3333333333rem;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      .function_box .function .history div {
+        text-align: center; }
+        .function_box .function .history div span {
+          font-size: 0.6rem;
+          color: #b86189; }
+        .function_box .function .history div p {
+          font-size: 0.3466666667rem;
+          color: #222; }
+    .function_box .function .night {
+      width: 3.3333333333rem;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      .function_box .function .night div {
+        text-align: center; }
+        .function_box .function .night div span {
+          font-size: 0.6rem;
+          color: #8399c2; }
+        .function_box .function .night div p {
+          font-size: 0.3466666667rem;
+          color: #222; }
+
+.mine_box {
+  overflow: hidden;
+  margin: 0 auto;
+  width: 10rem;
+  border-bottom: 0.2666666667rem solid #f4f5f7;
+  background: #fff; }
+  .mine_box .mine {
+    margin: 0 auto;
+    width: 9.2rem; }
+    .mine_box .mine .mine_one {
+      width: 100%;
+      height: 1.2rem;
+      line-height: 1.2rem;
+      border-bottom: 1px solid #e5e5e5; }
+      .mine_box .mine .mine_one P {
+        font-size: 0.3866666667rem;
+        float: left; }
+      .mine_box .mine .mine_one span {
+        display: block;
+        float: right;
+        color: #ccc;
+        font-size: 0.3866666667rem; }
+    .mine_box .mine .mine_two {
+      width: 100%;
+      height: 1.2rem;
+      line-height: 1.2rem; }
+      .mine_box .mine .mine_two P {
+        font-size: 0.3866666667rem;
+        float: left; }
+      .mine_box .mine .mine_two span {
+        display: block;
+        float: right;
+        color: #ccc;
+        font-size: 0.3866666667rem; }
+
+.money_box {
+  overflow: hidden;
+  margin: 0 auto;
+  width: 10rem;
+  border-bottom: 0.2666666667rem solid #f4f5f7;
+  background: #fff; }
+  .money_box .money {
+    margin: 0 auto;
+    width: 9.2rem; }
+    .money_box .money .money_one {
+      width: 100%;
+      height: 1.2rem;
+      line-height: 1.2rem;
+      border-bottom: 1px solid #e5e5e5; }
+      .money_box .money .money_one P {
+        font-size: 0.3866666667rem;
+        float: left; }
+      .money_box .money .money_one span {
+        display: block;
+        float: right;
+        color: #ccc;
+        font-size: 0.3866666667rem; }
+    .money_box .money .money_two {
+      width: 100%;
+      height: 1.2rem;
+      line-height: 1.2rem; }
+      .money_box .money .money_two P {
+        font-size: 0.3866666667rem;
+        float: left; }
+      .money_box .money .money_two span {
+        display: block;
+        float: right;
+        color: #ccc;
+        font-size: 0.3866666667rem; }
+    .money_box .money span:nth-child(3) {
+      margin-right: 0.2666666667rem; }
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 1.0933333333rem;
+  background: #fff;
+  border-bottom: 1px solid #E8E8E8;
+  border-top: 1px solid #ccc; }
+  .footer .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.48rem;
+    color: #505050; }
+    .footer .logo span {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.64rem; }
+    .footer .logo p {
+      font-family: '微软雅黑';
+      font-size: 0.24rem;
+      text-align: center;
+      margin-top: -0.0666666667rem; }
+  .footer .logo:hover {
+    color: red;
+    background: #D9E7FA;
+    border-radius: 10px; }
+
+.content_box {
+  overflow: hidden; }
+
+/*# sourceMappingURL=login.css.map */
